@@ -19,13 +19,13 @@
         {
             "rdf:about": "https://github.com/D-PLACE/dplace-tree-kitchen_et_al2009",
             "rdf:type": "prov:Entity",
-            "dc:created": "130e2e5",
+            "dc:created": "with-glottolog-3.4",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v3.4",
+            "dc:created": "v4.4",
             "dc:title": "Glottolog"
         }
     ],

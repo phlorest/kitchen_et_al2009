@@ -13,7 +13,7 @@ property | value
 [dc:hasPart](http://purl.org/dc/terms/hasPart) | <dl><dt><a href="http://purl.org/dc/terms/relation">dc:relation</a></dt><dd>data.nex</dd><dt><a href="http://purl.org/dc/terms/description">dc:description</a></dt><dd>The data underlying the analysis which created the phylogeny</dd><dt><a href="http://purl.org/dc/terms/format">dc:format</a></dt><dd>https://en.wikipedia.org/wiki/Nexus_file</dd></dl>
 [dc:identifier](http://purl.org/dc/terms/identifier) | http://dx.doi.org/10.1098/rspb.2009.0408
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/D-PLACE/dplace-tree-kitchen_et_al2009
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/D-PLACE/dplace-tree-kitchen_et_al2009/tree/130e2e5">D-PLACE/dplace-tree-kitchen_et_al2009 130e2e5</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v3.4">Glottolog v3.4</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/D-PLACE/dplace-tree-kitchen_et_al2009/tree/lottolog-3.4">D-PLACE/dplace-tree-kitchen_et_al2009 with-glottolog-3.4</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.4">Glottolog v4.4</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.8.10</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | kitchen_et_al2009
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
