@@ -15,7 +15,7 @@
         "analysis": "bayesian",
         "scaling": "years"
     },
-    "dc:title": "Phlorest phylogeny derived from Kitchen et al. 2009 'Semitic (Kitchen et al. 2009)'",
+    "dc:title": "Phlorest phylogeny derived from Kitchen et al.2009'Semitic (Kitchen et al. 2009)'",
     "dcat:accessURL": "https://github.com/phlorest/kitchen_et_al2009",
     "prov:wasDerivedFrom": [
         {
@@ -27,7 +27,7 @@
         {
             "rdf:about": "https://github.com/phlorest/kitchen_et_al2009",
             "rdf:type": "prov:Entity",
-            "dc:created": "with-glottolog-4.4",
+            "dc:created": "with-glottolog-4.4-2-g5640a37",
             "dc:title": "Repository"
         },
         {
@@ -215,6 +215,19 @@
                         "dc:description": "The data for this parameter is stored at 1-based index {ID} of the sequences in the DATA block of the Nexus file specified here. (See https://en.wikipedia.org/wiki/Nexus_file)",
                         "propertyUrl": "http://purl.org/dc/terms/relation",
                         "name": "Nexus_File"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#concepticonReference",
+                        "valueUrl": "http://concepticon.clld.org/parameters/{Concepticon_ID}",
+                        "name": "Concepticon_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Concepticon_Gloss"
                     }
                 ],
                 "primaryKey": [

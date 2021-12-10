@@ -10,7 +10,5 @@
     "analysis": "bayesian",
     "family": "semi1276",
     "cldf": "https://github.com/lexibank/kitchensemitic",
-    "missing": {
-        "characters": "not readily availble (could be parsed from data file)"
-    }
+    "missing": {}
 }
