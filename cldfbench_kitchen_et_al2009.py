@@ -23,24 +23,18 @@ class Dataset(phlorest.Dataset):
 
     def cmd_makecldf(self, args):
         self.init(args)
-        args.writer.add_summary(
-            self.raw_dir.read_tree(
-                'kitchen2009.mcct.trees', detranslate=True, preprocessor=fix_trees),
-            self.metadata,
-            args.log)
         
-        posterior = self.sample(
-            self.remove_burnin(
-                fix_trees(self.raw_dir.read('Semitic.Greenhill.trees.gz')),
-                200),
-            detranslate=True,
-            as_nexus=True)
+        summary = self.raw_dir.read_tree(
+            'kitchen2009.mcct.trees', detranslate=True,
+            preprocessor=fix_trees)
+        args.writer.add_summary(summary, self.metadata, args.log)
 
-        args.writer.add_posterior(
-            posterior.trees.trees,
-            self.metadata,
-            args.log)
-        
+        posterior = self.raw_dir.read_trees(
+            'Semitic.Greenhill.trees.gz',
+            burnin=200, sample=1000, detranslate=True,
+            preprocessor=fix_trees)
+        args.writer.add_posterior(posterior, self.metadata, args.log)
+
         # create nexus file from multistate nexus because we then know the 
         # character labels / word mappings.
         nex = self.raw_dir.read_nexus('Kitchen-Semitic-Multistate.nex',
