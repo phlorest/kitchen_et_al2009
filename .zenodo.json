@@ -1,0 +1,35 @@
+{
+    "title": "Phlorest phylogeny derived from Kitchen et al. 2009 'Semitic (Kitchen et al. 2009)'",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Generic",
+        "linguistics"
+    ],
+    "upload_type": "dataset",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Kitchen A, Ehret C, Assefa S &amp; Mulligan CJ. 2009. Bayesian phylogenetic analysis of Semitic languages identifies an Early Bronze Age origin of Semitic in the Near East. Proceedings of the Royal Society B: Biological Sciences, 270(1668), 2703-2710.</p>\n</blockquote>",
+    "communities": [
+        {
+            "identifier": "dplace"
+        }
+    ],
+    "creators": [
+        {
+            "name": "A. Kitchen"
+        },
+        {
+            "name": "C. Ehret"
+        },
+        {
+            "name": "S. Assefa"
+        },
+        {
+            "name": "C. J. Mulligan"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Simon J. Greenhill",
+            "type": "Other"
+        }
+    ]
+}
