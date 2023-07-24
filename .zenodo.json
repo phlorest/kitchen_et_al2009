@@ -1,5 +1,5 @@
 {
-    "title": null,
+    "title": "Phlorest phylogeny derived from Kitchen et al. 2009 'Semitic (Kitchen et al. 2009)'",
     "access_right": "open",
     "keywords": [
         "cldf:Generic",
@@ -10,6 +10,26 @@
     "communities": [
         {
             "identifier": "dplace"
+        }
+    ],
+    "creators": [
+        {
+            "name": "A. Kitchen"
+        },
+        {
+            "name": "C. Ehret"
+        },
+        {
+            "name": "S. Assefa"
+        },
+        {
+            "name": "C. J. Mulligan"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Simon J. Greenhill",
+            "type": "Other"
         }
     ]
 }
