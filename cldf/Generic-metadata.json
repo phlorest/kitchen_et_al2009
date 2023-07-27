@@ -15,7 +15,7 @@
         "analysis": "bayesian",
         "scaling": "years"
     },
-    "dc:title": "Phlorest phylogeny derived from Kitchen et al. 2009 'Semitic (Kitchen et al. 2009)'",
+    "dc:title": "Phlorest phylogeny derived from Kitchen et al. 2009 'Bayesian phylogenetic analysis of Semitic languages identifies an Early Bronze Age origin of Semitic in the Near East'",
     "dcat:accessURL": "https://github.com/phlorest/kitchen_et_al2009",
     "prov:wasDerivedFrom": [
         {
@@ -33,7 +33,7 @@
         {
             "rdf:about": "https://github.com/phlorest/kitchen_et_al2009",
             "rdf:type": "prov:Entity",
-            "dc:created": "with-glottolog-4.4-12-ge5e97c5",
+            "dc:created": "with-glottolog-4.4-14-g819820f",
             "dc:title": "Repository"
         },
         {

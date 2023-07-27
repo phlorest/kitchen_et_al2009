@@ -1,4 +1,4 @@
-# Phlorest phylogeny derived from Kitchen et al. 2009 'Semitic (Kitchen et al. 2009)'
+# Phlorest phylogeny derived from Kitchen et al. 2009 'Bayesian phylogenetic analysis of Semitic languages identifies an Early Bronze Age origin of Semitic in the Near East'
 
 [![CLDF validation](https://github.com/phlorest/kitchen_et_al2009/workflows/CLDF-validation/badge.svg)](https://github.com/phlorest/kitchen_et_al2009/actions?query=workflow%3ACLDF-validation)
 
@@ -11,10 +11,12 @@ If you use these data please cite
 
 ## Description
 
+A [Phlorest phylogeny](https://github.com/phlorest) of the Semitic language family computed from a bayesian analysis scaled by years.
+
 
 This dataset is licensed under a https://creativecommons.org/licenses/by/2.0/ license
 
-Available online at https://doi.org/10.1098/rspb.2009.0408
+Source available online at https://doi.org/10.1098/rspb.2009.0408
 
 
 ## CLDF Datasets
@@ -25,4 +27,4 @@ The following CLDF datasets are available in [cldf](cldf):
 
 ## Summary Tree
 
-![summary](./summary_tree.svg)
+![summary](https://raw.githubusercontent.com/phlorest/kitchen_et_al2009/main/summary_tree.svg)
