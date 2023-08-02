@@ -1,7 +1,5 @@
 import pathlib
 
-import nexus
-from nexus.tools.binarise import binarise
 import phlorest
 
 
@@ -37,11 +35,9 @@ class Dataset(phlorest.Dataset):
 
         # create nexus file from multistate nexus because we then know the 
         # character labels / word mappings.
-        nex = self.raw_dir.read_nexus('Kitchen-Semitic-Multistate.nex',
-            preprocessor=fix_nexus)
-        nex = binarise(nex)
-        nex = nexus.NexusReader.from_string(nex.write(charblock=True))
-        args.writer.add_data(nex, self.characters, args.log)
-            
-            
-            
+        args.writer.add_data(
+            self.raw_dir.read_nexus('Kitchen-Semitic-Multistate.nex', preprocessor=fix_nexus),
+            self.characters,
+            args.log,
+            binarise=True)
+ 
