@@ -1,6 +1,7 @@
 # Phlorest phylogeny derived from Kitchen et al. 2009 'Bayesian phylogenetic analysis of Semitic languages identifies an Early Bronze Age origin of Semitic in the Near East'
 
 [![CLDF validation](https://github.com/phlorest/kitchen_et_al2009/workflows/CLDF-validation/badge.svg)](https://github.com/phlorest/kitchen_et_al2009/actions?query=workflow%3ACLDF-validation)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8250115.svg)](https://doi.org/10.5281/zenodo.8250115)
 
 ## How to cite
 
