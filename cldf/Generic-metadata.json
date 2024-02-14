@@ -33,7 +33,7 @@
         {
             "rdf:about": "https://github.com/phlorest/kitchen_et_al2009",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0-1-g407aef3",
+            "dc:created": "v1.1",
             "dc:title": "Repository"
         },
         {
@@ -46,7 +46,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.10.12"
+            "dc:description": "3.11.1"
         },
         {
             "dc:title": "python-packages",
@@ -286,7 +286,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
             "dc:description": "The ParameterTable lists characters (a.k.a. sites), i.e. the (often binary) variables used as data basis to compute the phylogeny from.",
-            "dc:extent": 95,
+            "dc:extent": 673,
             "tableSchema": {
                 "columns": [
                     {

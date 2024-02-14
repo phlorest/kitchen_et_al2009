@@ -2,17 +2,10 @@ import pathlib
 
 import phlorest
 
-
-def fix_trees(p):
-    if not isinstance(p, str):
-        p = p.read_text(encoding='utf8')
-    return p.replace('.Arabic', '_Arabic')
-
-
 def fix_nexus(p):
     if not isinstance(p, str):
         p = p.read_text(encoding='utf8')
-    return p.replace('Arabic', '_Arabic')  # yes, as above but no full stop
+    return p.replace('.Arabic', '_Arabic')
 
 
 class Dataset(phlorest.Dataset):
@@ -24,20 +17,19 @@ class Dataset(phlorest.Dataset):
         
         summary = self.raw_dir.read_tree(
             'kitchen2009.mcct.trees', detranslate=True,
-            preprocessor=fix_trees)
+            preprocessor=fix_nexus)
         args.writer.add_summary(summary, self.metadata, args.log)
 
         posterior = self.raw_dir.read_trees(
             'Semitic.Greenhill.trees.gz',
             burnin=200, sample=1000, detranslate=True,
-            preprocessor=fix_trees)
+            preprocessor=fix_nexus)
         args.writer.add_posterior(posterior, self.metadata, args.log)
 
         # create nexus file from multistate nexus because we then know the 
         # character labels / word mappings.
         args.writer.add_data(
-            self.raw_dir.read_nexus('Kitchen-Semitic-Multistate.nex', preprocessor=fix_nexus),
+            self.raw_dir.read_nexus('kitchen_et_al2009-Binary.nex', preprocessor=fix_nexus),
             self.characters,
-            args.log,
-            binarise=True)
+            args.log)
  

@@ -14,8 +14,8 @@ property | value
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dc:subject](http://purl.org/dc/terms/subject) | <dl><dt>family</dt><dd>Semitic</dd><dt>analysis</dt><dd>bayesian</dd><dt>scaling</dt><dd>years</dd></dl>
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/phlorest/kitchen_et_al2009
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="data.nex">data.nex </a></li><li><a href="https://doi.org/10.5281/zenodo.8171664">https://doi.org/10.5281/zenodo.8171664 </a></li><li><a href="https://github.com/phlorest/kitchen_et_al2009/tree/407aef3">phlorest/kitchen_et_al2009 v1.0-1-g407aef3</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.8">Glottolog v4.8</a></li></ol>
-[prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.10.12</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="data.nex">data.nex </a></li><li><a href="https://doi.org/10.5281/zenodo.8171664">https://doi.org/10.5281/zenodo.8171664 </a></li><li><a href="https://github.com/phlorest/kitchen_et_al2009/tree/v1.1">phlorest/kitchen_et_al2009 v1.1</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.8">Glottolog v4.8</a></li></ol>
+[prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.11.1</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | kitchen_et_al2009
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
 
@@ -91,7 +91,7 @@ The ParameterTable lists characters (a.k.a. sites), i.e. the (often binary) vari
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF ParameterTable](http://cldf.clld.org/v1.0/terms.rdf#ParameterTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 95
+[dc:extent](http://purl.org/dc/terms/extent) | 673
 
 
 ### Columns

@@ -1,0 +1,352 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.1,
+          33.1
+        ]
+      },
+      "properties": {
+        "Name": "Akkadian",
+        "Glottocode": "akka1240",
+        "Glottolog_Name": "Akkadian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.543456,
+          11.708182
+        ]
+      },
+      "properties": {
+        "Name": "Amharic",
+        "Glottocode": "amha1245",
+        "xd_ids": [
+          "xd455"
+        ],
+        "Glottolog_Name": "Amharic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.756,
+          10.6596
+        ]
+      },
+      "properties": {
+        "Name": "Argobba",
+        "Glottocode": "argo1244",
+        "Glottolog_Name": "Argobba"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5605,
+          11.5764
+        ]
+      },
+      "properties": {
+        "Name": "Gafat",
+        "Glottocode": "gafa1240",
+        "Glottolog_Name": "Gafat"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.6821,
+          10.1342
+        ]
+      },
+      "properties": {
+        "Name": "Geez",
+        "Glottocode": "geez1241",
+        "Glottolog_Name": "Geez"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.9891,
+          8.11879
+        ]
+      },
+      "properties": {
+        "Name": "Geto",
+        "Glottocode": "seba1251",
+        "Glottolog_Name": "Sebat Bet Gurage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.1332,
+          9.30485
+        ]
+      },
+      "properties": {
+        "Name": "Harari",
+        "Glottocode": "hara1271",
+        "Glottolog_Name": "Harari"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.1562,
+          19.6511
+        ]
+      },
+      "properties": {
+        "Name": "Harsusi",
+        "Glottocode": "hars1241",
+        "Glottolog_Name": "Harsusi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.0179,
+          31.1056
+        ]
+      },
+      "properties": {
+        "Name": "Hebrew",
+        "Glottocode": "hebr1245",
+        "xd_ids": [
+          "xd589"
+        ],
+        "Glottolog_Name": "Modern Hebrew"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.7968,
+          7.94883
+        ]
+      },
+      "properties": {
+        "Name": "Innemor",
+        "Glottocode": "inor1238",
+        "Glottolog_Name": "Inoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.99526,
+          17.29154
+        ]
+      },
+      "properties": {
+        "Name": "Jibbali",
+        "Glottocode": "sheh1240",
+        "Glottolog_Name": "Jibbali"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.473,
+          16.793
+        ]
+      },
+      "properties": {
+        "Name": "Mehri",
+        "Glottocode": "mehr1241",
+        "Glottolog_Name": "Mehri"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.5742,
+          7.53825
+        ]
+      },
+      "properties": {
+        "Name": "Mesmes",
+        "Glottocode": "mesm1243",
+        "Glottolog_Name": "Mesmes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.3386,
+          8.10617
+        ]
+      },
+      "properties": {
+        "Name": "Mesqan",
+        "Glottocode": "mesq1240",
+        "Glottolog_Name": "Mesqan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "Name": "Moroccan_Arabic",
+        "Glottocode": "moro1292",
+        "xd_ids": [
+          "xd514",
+          "xd513"
+        ],
+        "Glottolog_Name": "Moroccan Arabic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8525,
+          27.9625
+        ]
+      },
+      "properties": {
+        "Name": "Ogaden_Arabic",
+        "Glottocode": "stan1318",
+        "Glottolog_Name": "Standard Arabic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.9168,
+          12.4892
+        ]
+      },
+      "properties": {
+        "Name": "Soqotri",
+        "Glottocode": "soqo1240",
+        "Glottolog_Name": "Soqotri"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.2233,
+          17.3494
+        ]
+      },
+      "properties": {
+        "Name": "Tigre",
+        "Glottocode": "tigr1270",
+        "xd_ids": [
+          "xd446",
+          "xd444"
+        ],
+        "Glottolog_Name": "Tigre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.9266,
+          15.3359
+        ]
+      },
+      "properties": {
+        "Name": "Tigrinya",
+        "Glottocode": "tigr1271",
+        "xd_ids": [
+          "xd437"
+        ],
+        "Glottolog_Name": "Tigrinya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.78,
+          35.6
+        ]
+      },
+      "properties": {
+        "Name": "Ugaritic",
+        "Glottocode": "ugar1238",
+        "Glottolog_Name": "Ugaritic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.14,
+          8.23
+        ]
+      },
+      "properties": {
+        "Name": "Walani",
+        "Glottocode": "wola1253",
+        "Glottolog_Name": "Wolane"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.8258,
+          8.01148
+        ]
+      },
+      "properties": {
+        "Name": "Zway",
+        "Glottocode": "zayy1238",
+        "Glottolog_Name": "Zay"
+      }
+    }
+  ]
+}
