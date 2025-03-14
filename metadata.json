@@ -11,5 +11,9 @@
     "analysis": "bayesian",
     "family": "Semitic",
     "cldf": "https://doi.org/10.5281/zenodo.8171664",
+    "artefacts": [
+        "raw/Kitchen-Semitic-covarion-relaxed.xml",
+        "raw/Kitchen-Semitic-covarion-strict.xml"
+    ],
     "missing": {}
 }
