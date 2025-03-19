@@ -33,13 +33,13 @@
         {
             "rdf:about": "https://github.com/phlorest/kitchen_et_al2009",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.1",
+            "dc:created": "v1.1-2-g4107953",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.8",
+            "dc:created": "v5.0",
             "dc:title": "Glottolog"
         }
     ],

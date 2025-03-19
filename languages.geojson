@@ -39,6 +39,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          42.185,
+          33.905
+        ]
+      },
+      "properties": {
+        "Name": "Aramaic",
+        "Glottocode": "impe1235",
+        "Glottolog_Name": "Imperial Aramaic (700-300 BCE)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           39.756,
           10.6596
         ]
