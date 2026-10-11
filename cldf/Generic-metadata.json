@@ -33,7 +33,7 @@
         {
             "rdf:about": "https://github.com/phlorest/kitchen_et_al2009",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.2-6-gb169358",
+            "dc:created": "v1.2-8-gad7f83f",
             "dc:title": "Repository"
         },
         {
